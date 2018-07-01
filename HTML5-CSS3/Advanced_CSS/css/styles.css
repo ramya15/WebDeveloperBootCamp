@@ -1,17 +1,31 @@
+body{
+    margin: 0px;
+}
 .container {
+    /* Flex properties */
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 img {
     width: 400px;
     height: 300px;
     margin: 10px;
+    transition: all 1s; /*CSS3 prop*/
+}
+
+img:hover{
+    transform: scale(1.1); /*CSS3 prop*/
 }
 
 h1 {
     font-family: fantasy;
+    font-size: 3em;
     border-bottom: 2px solid pink;
     border-right: 2px solid pink;
     width: 400px;
     text-align: center;
+    -ms-box-shadow: 4px 4px 4px #888888; /* prefix -ms: to support in IE */
+    box-shadow: 4px 4px 4px #888888; /*CSS3 prop*/
 }

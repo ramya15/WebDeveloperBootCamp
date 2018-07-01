@@ -36,3 +36,9 @@ What seletors win out in the cascade depends on:
 * Minify your CSS:      https://www.cleancss.com/css-minify/
 * Flexbox Cheatsheet:   https://darekkay.com/dev/flexbox-cheatsheet.html
 * Practice Flexbox:     http://flexboxfroggy.com/
+* CSS Guide for Flexbox:https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+CSS3:: W3C Browser Support Reference: 
+https://www.w3schools.com/cssref/css3_browsersupport.asp
+https://caniuse.com/
+http://shouldiprefix.com/
