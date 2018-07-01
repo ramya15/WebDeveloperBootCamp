@@ -2,8 +2,9 @@ CSS Cheat Sheet
 
 Reference:
 *https://www.w3schools.com/cssref/css_selectors.asp
-*https://css-tricks.com/almanac/
-*http://paletton.com/
+*https://css-tricks.com/almanac/    : all css properties with attributes
+*http://paletton.com/               : Color palatte
+*https://fonts.google.com/          : For different fonts
 
 Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
 
@@ -30,3 +31,8 @@ What seletors win out in the cascade depends on:
 -Importance
 -Source Order: styles in latter src stylesheet shall be applied in case if both stylesheets come across same elements
 
+*************************************************************************************************************************
+
+* Minify your CSS:      https://www.cleancss.com/css-minify/
+* Flexbox Cheatsheet:   https://darekkay.com/dev/flexbox-cheatsheet.html
+* Practice Flexbox:     http://flexboxfroggy.com/

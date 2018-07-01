@@ -1,0 +1,92 @@
+/* ID selector */
+#page {
+    /*     
+    background-image: url(../images/bgpic.jpg);
+    background-repeat: no-repeat;
+    background-position: right top; */
+
+    /* shorthand background property */
+    background: url("../images/bgpic.jpg") right top no-repeat;
+    
+    background-color: thistle;
+    background-size: cover;
+}
+
+/* class selector */
+.copy {
+    color: #134513;
+    text-align: center;
+    clear: both;
+}
+
+/* element selector */
+h1 {
+    text-align: center;
+    color: #021d02;
+    cursor: pointer;    /*display hand cursor on mouse hover of h1*/
+    border: 5px solid rgba(159, 238, 159, 0.5); 
+    line-height: 170%; 
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+li {
+    color: #fbb;
+    display: inline-block;  /* display li elements in single line */
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+/* Descendant selector [nested] */
+/*applies to all <a> tags inside <li>*/
+li a {
+    color: #1606fd;
+    text-decoration: none;
+}
+
+/* Adjacent sibling selector */
+/* Selects matching <p> that is the next sibling of matching <img> */
+h2 + p , img + p {
+    color: #135589;
+    line-height: 25px; /* spacing between lines */
+    font-size: 120%;
+}
+
+/* Child selector */
+/* Selects all <h2> elements where the parent is a <section> element */
+section > h2 {
+    text-transform: uppercase;
+    color: rgb(200, 20, 45);
+}
+
+/* Group of selectors */
+/* Selects all <footer> elements and all <footer> elements */
+section, footer {
+    text-align: left;
+}
+
+/* :hover */
+a:hover{
+    background-color: #f7beef;
+}
+
+.text {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 112%;
+    color: rgb(131, 22, 3);
+    line-height: 25px;
+    font-family: 'Poiret One', cursive;
+}
+
+img {
+    float: right;
+}
+
+/* Star(*)
+* {
+    applies to all tags on the page
+} 
+*/
+

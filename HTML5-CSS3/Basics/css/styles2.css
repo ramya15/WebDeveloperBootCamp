@@ -1,0 +1,23 @@
+.boxmodel {
+    border: 5pt solid sienna;
+    display: inline-block;
+    padding: 20px 50px; /* TB LR */
+    margin:20px;
+    width: 50px;
+    height:30px;
+    font-size: 1.5rem; /* 1.5 times of root element <html> i.e., 5x size of <html>*/
+}
+
+p {
+    font-size: 20px;
+    color: #0d0f66;
+}
+
+blockquote{
+    font-style: oblique;
+    color: rgb(189, 4, 35);
+}
+
+span{
+    font-size: 2em; /* 2x20 px */
+}
