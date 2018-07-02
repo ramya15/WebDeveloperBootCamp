@@ -1,0 +1,12 @@
+Exercise: Robot Animation Starter Files
+
+It's time to create your new robot friend. 
+But he needs some assembly first! 
+Using everything you learned in this section, and your best friend: 
+Google Developer Tools in the browser, try to assemble your new robot friend. 
+
+Once you are done, customize your robot, and add any animation you want. 
+Then, you can submit it to our Discord in the #css channel for myself and others to view! 
+You can send your CSS and HTML5 files or screen capture your robot. 
+
+Good luck!

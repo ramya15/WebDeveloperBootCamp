@@ -42,3 +42,8 @@ CSS3:: W3C Browser Support Reference:
 https://www.w3schools.com/cssref/css3_browsersupport.asp
 https://caniuse.com/
 http://shouldiprefix.com/
+
+CSS Transitions and Transforms for Beginners:
+https://robots.thoughtbot.com/transitions-and-transforms
+
+https://learn.freecodecamp.org/responsive-web-design/basic-css

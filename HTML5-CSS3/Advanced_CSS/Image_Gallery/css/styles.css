@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    background-color: rgba(144, 194, 151, 0.774);
+}
+
+.container {
+    /* Flex properties */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid #888888;
+    border-right: 2px solid #888888;
+    width: 400px;
+    text-align: center;
+    -moz-box-shadow:4px 4px 5px #888888;        /* prefix -moz: to support in Firefox */
+	-ms-box-shadow: 4px 4px 5px #888888;        /* IE */
+	-webkit-box-shadow: 4px 4px 5px #888888;    /* Safari, Chrome */
+	-o-box-shadow: 4px 4px 5px #888888;         /* Opera */
+    box-shadow: 4px 4px 4px #888888; /*CSS3 prop*/
+    color: #887788;
+    background-color: rgba(126, 211, 214, 0.7);
+    padding-left: 100px;
+    padding-right: 0.5px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s; /*CSS3 prop*/
+    border-radius: 5%; 
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1); /*CSS3 prop*/
+}
